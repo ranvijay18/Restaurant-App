@@ -33,7 +33,7 @@ const MealList = () => {
         }
     ]
 
-     const meal = Dummy_List.map((ele) => <li><Items items={ele} /></li>)
+     const meal = Dummy_List.map((ele, index) => <li key={index}><Items items={ele} keys={index}/></li>)
     return(
         <div className="list">
             <ul>{meal}</ul>

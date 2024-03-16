@@ -1,0 +1,15 @@
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.action{
+    text-align: end;
+}
+
+.close{
+    background-color: white;
+    color: brown;
+    border: 1px solid brown;
+    margin-right: 8px;
+}

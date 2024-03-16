@@ -2,6 +2,11 @@ import "./Items.css"
 
 
 const Items = (props) => {
+
+    const handleClick = (e) => {
+        e.preventDefault();
+        console.log(props.keys)
+    };
    return(
     <>
     <div className="meal">
@@ -16,7 +21,7 @@ const Items = (props) => {
             <input type="text" value="1" size="3"/>
             <br/>
             <br/>
-            <button>+ Add</button>
+            <button onClick={handleClick}>+ Add</button>
         </form>
     </div>
     </div>
