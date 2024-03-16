@@ -1,0 +1,15 @@
+.list{
+  margin-top: 130px;
+  background-color: rgb(189, 230, 230);
+  width: 54%;
+  margin-left: 325px;
+  padding: 10px 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-top: 20px;
+}

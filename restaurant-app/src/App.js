@@ -1,12 +1,12 @@
 import './App.css';
 import Header from './components/Layout/Header';
-import MealSummary from './components/Meals/MealSummary';
+import Meal from './components/Meals/Meal';
 
 function App() {
   return (
     <div>
       <Header />
-      <MealSummary />
+      <Meal />
     </div>
   );
 }
