@@ -1,3 +1,29 @@
 div{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
+
+.meal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount{
+    margin-right: 20px;
+    text-align: center;
+}
+
+.amount-number{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.head{
+  font-weight: 900;
+}
+
+input{
+    border-radius: 3px;
+    border: 1px solid black;
+    outline: none;
+}
