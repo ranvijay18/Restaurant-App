@@ -18,7 +18,7 @@ const Items = (props) => {
     <div className="amount">
         <form>
             <label className="head">Amount </label>
-            <input type="text" value="1" size="3"/>
+            <input type="number" defaultValue="1"/>
             <br/>
             <br/>
             <button onClick={handleClick}>+ Add</button>
