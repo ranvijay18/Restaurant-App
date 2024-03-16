@@ -1,4 +1,5 @@
 import "./MealList.css"
+import Items from "./Items"
 
 
 
@@ -32,10 +33,10 @@ const MealList = () => {
         }
     ]
 
-     const meal = Dummy_List.map((ele) => <li>{ele.dish}<br/>{ele.description}<br/> $ {ele.price}</li>)
+     const meal = Dummy_List.map((ele) => <li><Items items={ele} /></li>)
     return(
         <div className="list">
-        <ul>{meal}</ul>
+            <ul>{meal}</ul>
         </div>
     )
      

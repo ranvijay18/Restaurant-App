@@ -9,6 +9,7 @@
     color: white;
     justify-content: space-around;
     align-items: center;
+    z-index: 10;
 }
 
 img{
