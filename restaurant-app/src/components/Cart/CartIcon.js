@@ -2,9 +2,9 @@ import "./CartIcon.css";
 import { FaCartPlus } from "react-icons/fa"
 
 
-const CartIcon = () => {
+const CartIcon = (props) => {
     return(
-        <button>
+        <button onClick={props.onClick}>
             <span>
                 <FaCartPlus />
             </span>

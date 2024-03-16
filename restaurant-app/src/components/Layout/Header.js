@@ -2,13 +2,13 @@ import "./Header.css";
 import food from "../../assests/food.jpg"
 import CartIcon from "../Cart/CartIcon";
 
-const Header = () => {
+const Header = (props) => {
     return(
         <>
         <div className="header">
         <h1>ReactMeals</h1>
         <span></span>
-        <CartIcon />
+        <CartIcon onClick={props.onShowCart} onClose={props.onHideCart}/>
         </div>
         <div>
              <img src={food} />
