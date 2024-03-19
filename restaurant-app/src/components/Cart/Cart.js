@@ -24,7 +24,7 @@ const Cart = (props) => {
       {cartCtx.items.map((item) => (
         <CartItem
           key={item.id}
-          name={item.name}
+          dish={item.dish}
           amount={item.amount}
           price={item.price}
           onRemove={cartItemRemoveHandler.bind(null, item.id)}
@@ -45,7 +45,7 @@ const Cart = (props) => {
         <button className='button--alt' onClick={props.onHideCart}>
           Close
         </button>
-        {hasItems && <button>Order</button>}
+        {hasItems && <button className='button--alt'>Order</button>}
       </div>
     </Modal>
   );
